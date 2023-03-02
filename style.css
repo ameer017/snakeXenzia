@@ -1,0 +1,43 @@
+/* #myCanvas {
+    border: 1px solid;
+} */
+
+.gameContainer {
+    text-align: center;
+}
+
+.gameBoard {
+    border: 3px solid #6f6218;
+    background-color: #e7dada;
+    /* background-image: url(./8552475.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+#scoreText {
+    font-family: 'Permanent marker', cursive;
+    font-size: 30px;
+    color: teal;
+}
+
+#resetBtn {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+    letter-spacing: .1em;
+    transition: 2s ease;
+}
+
+#resetBtn:hover {
+    background-color: #e7dada;
+    border: none;
+    color: #861818;
+}
